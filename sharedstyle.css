@@ -61,6 +61,7 @@
 			color:white;
 		}
 		footer{
+			border-top: solid #b90000;
 			width: 100%;
 			display: block;
 			background-color: #32421B;
