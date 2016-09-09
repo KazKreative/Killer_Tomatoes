@@ -1,0 +1,124 @@
+header{
+			width: 100%;
+			display: block;
+			background-color: #32421B;
+			top:0px;
+			position: fixed;
+			height: 25%;
+			z-index: 10;
+			border-bottom: solid #b90000;
+	
+		}
+
+		body{
+			background-color: black;
+		}
+		#img1{
+			color:white;
+		}
+		#content{
+			color: white;
+		}
+		
+		article{
+			margin-top: 200px;
+			 
+		}
+		.logo{
+			background-size: contain;
+			width: 30%;
+			height: auto;
+			
+			
+		}
+		.logo,
+		#menu{
+			display: inline-block;
+			
+		}
+		#menu{
+			width:215.19px;
+			position: absolute;
+			
+			vertical-align: top;
+			bottom: 0;
+			right: 10px;
+			
+		}
+		#hometab,
+		#page2{
+			margin-left: 20px;
+			display: inline-block;
+			font-size: 30px;
+			
+
+		}
+		a{
+			color:  #FEBA01; 
+			text-decoration: none;
+		}
+		a:visited{
+
+			color: #900000;
+
+		}
+		a:hover{
+			color:white;
+		}
+		footer{
+			width: 100%;
+			display: block;
+			background-color: #32421B;
+			bottom:0px;
+			position: fixed;
+			height: 10%;
+		}
+		#footerContent{
+			color: #FEBA01;
+			height: 100%;
+			width:20%;
+			position: relative;
+			left: 40%;
+			
+		}
+
+
+		#content,
+		#img1{
+
+			width: 60%;
+			position: relative;
+			left: 40%;
+
+		}
+
+		@media all and (max-width: 900px){
+
+			.logo{
+				width:265.95px;
+				height: auto;
+			}
+			
+		}
+		@media all and (max-width: 630px){
+
+			#hometab,
+			#page2{
+				font-size: 25px;
+			}
+		}
+		@media all and (max-width: 720px){
+
+			menu{
+				width: 175px;
+			}
+			.logo{
+				width:220px;
+				height: auto;
+			}
+
+		}
+
+
+
+	
