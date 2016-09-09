@@ -6,9 +6,7 @@
 		body{
 			background-color: black;
 		}
-		#img1{
-			color:white;
-		}
+		
 		#content{
 			color: white;
 		}
@@ -42,8 +40,8 @@
 			position: absolute;
 			
 			vertical-align: top;
-			bottom: 0;
-			right: 10px;
+			bottom: 0px;
+			right: 5px;
 			
 		}
 		#hometab,
@@ -93,29 +91,42 @@
 
 		}
 
-		@media all and (max-width: 900px){
+		@media all and (max-width: 1000px){
 
 			.logo{
-				width:265.95px;
+				width:300px;
 				height: auto;
 			}
 			
 		}
 		@media all and (max-width: 630px){
-
+			menu{
+				position: absolute;
+				right: 0px;
+			}
 			#hometab,
 			#page2{
 				font-size: 25px;
 			}
-		}
-		@media all and (max-width: 720px){
-
-			menu{
-				width: 175px;
-			}
 			.logo{
 				width:220px;
 				height: auto;
+			}
+		}
+		@media all and (max-width: 750px){
+
+			menu{
+				width: 100px;
+			}
+
+			#img1{
+				width:60%;
+				height:auto;
+			}
+
+			#hometab,
+			#page2{
+				margin-left: 10px;
 			}
 
 		}
@@ -135,8 +146,8 @@
 		</div>
 	</header>
 	<article>
-		<div id = "img1"> 
-		<img src="images/AKT_main_image.png">
+		<div > 
+		<img src="images/AKT_main_image.png" id = "img1">
 		</div>
 		<div id = "content">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis pulvinar imperdiet. Vivamus dui orci, volutpat id lacus sit amet, ultrices scelerisque diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ut risus non ipsum molestie tristique. Etiam bibendum scelerisque odio et bibendum. Nunc dictum, diam semper aliquam tincidunt, eros neque sagittis nisl, sit amet tincidunt magna orci a ante. Nulla ultricies risus dolor, quis luctus nunc gravida in. Sed tincidunt fringilla ex, sed fermentum ex egestas vel. Phasellus placerat ante ac nisi dignissim varius. Nunc a posuere ex.</p>
