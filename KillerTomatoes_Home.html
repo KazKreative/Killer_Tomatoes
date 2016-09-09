@@ -18,36 +18,53 @@
 			background-color: #32421B;
 			top:0px;
 			position: fixed;
-			height: 30%;
+			height: 25%;
+			z-index: 10;
 	
 		}
 		article{
 			margin-top: 200px;
 		}
-		#logo{
+		.logo{
 			background-size: contain;
-			width: 20%;
-			height: 100%;
-			border: 2px solid black;
+			width: 30%;
+			height: auto;
+			
+			
 		}
-		#logo,
+		.logo,
 		#menu{
 			display: inline-block;
-			vertical-align: bottom;
+			
 		}
 		#menu{
-			width:20%;
-			color:  #FEBA01;
-			position: relative;
-			left: 55%;
+			width:215.19px;
+			position: absolute;
+			
+			vertical-align: top;
+			bottom: 0;
+			right: 10px;
+			
 		}
 		#hometab,
 		#page2{
 			margin-left: 20px;
 			display: inline-block;
 			font-size: 30px;
+			
 
+		}
+		a{
+			color:  #FEBA01; 
+			text-decoration: none;
+		}
+		a:visited{
 
+			color: #900000;
+
+		}
+		a:hover{
+			color:white;
 		}
 		footer{
 			width: 100%;
@@ -55,7 +72,7 @@
 			background-color: #32421B;
 			bottom:0px;
 			position: fixed;
-			height: 20%;
+			height: 10%;
 		}
 		#footerContent{
 			color: #FEBA01;
@@ -63,25 +80,63 @@
 			width:20%;
 			position: relative;
 			left: 40%;
-			border: 2px solid black;
+			
 		}
+
+
+		#content,
+		#img1{
+
+			width: 60%;
+			position: relative;
+			left: 40%;
+
+		}
+
+		@media all and (max-width: 900px){
+
+			.logo{
+				width:265.95px;
+				height: auto;
+			}
+			
+		}
+		@media all and (max-width: 630px){
+
+			#hometab,
+			#page2{
+				font-size: 25px;
+			}
+		}
+		@media all and (max-width: 720px){
+
+			menu{
+				width: 175px;
+			}
+			.logo{
+				width:220px;
+				height: auto;
+			}
+
+		}
+
 
 
 	</style>
 </head>
 <body>
 	<header>
-		<div id = "logo">
-			<img src="images/AKT_logo.png">
-		</div>
+		
+			<img src="images/AKT_logo.png" class = "logo">
+		
 		<div id = "menu">
-			<div id = "hometab">Home</div> 
-			<div id = "page2">Details</div>
+			<div id = "hometab"><a href="KillerTomatoes_Home.html"> Home</a></div> 
+			<div id = "page2"><a href="Page_2.html">Details</a></div>
 		</div>
 	</header>
 	<article>
 		<div id = "img1"> 
-		Title Image Here Or Delete 
+		<img src="images/AKT_main_image.png">
 		</div>
 		<div id = "content">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis pulvinar imperdiet. Vivamus dui orci, volutpat id lacus sit amet, ultrices scelerisque diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum ut risus non ipsum molestie tristique. Etiam bibendum scelerisque odio et bibendum. Nunc dictum, diam semper aliquam tincidunt, eros neque sagittis nisl, sit amet tincidunt magna orci a ante. Nulla ultricies risus dolor, quis luctus nunc gravida in. Sed tincidunt fringilla ex, sed fermentum ex egestas vel. Phasellus placerat ante ac nisi dignissim varius. Nunc a posuere ex.</p>
