@@ -1,28 +1,23 @@
-header{
+		body{
+			background-color: black;
+		}
+		
+		#content{
+			color: white;
+		}
+		header{
 			width: 100%;
 			display: block;
 			background-color: #32421B;
 			top:0px;
 			position: fixed;
-			height: 25%;
+			height: 20%;
 			z-index: 10;
 			border-bottom: solid #b90000;
 	
 		}
-
-		body{
-			background-color: black;
-		}
-		#img1{
-			color:white;
-		}
-		#content{
-			color: white;
-		}
-		
 		article{
 			margin-top: 200px;
-			 
 		}
 		.logo{
 			background-size: contain;
@@ -41,8 +36,8 @@ header{
 			position: absolute;
 			
 			vertical-align: top;
-			bottom: 0;
-			right: 10px;
+			bottom: 0px;
+			right: 5px;
 			
 		}
 		#hometab,
@@ -86,39 +81,55 @@ header{
 		#content,
 		#img1{
 
-			width: 60%;
+			width: 50%;
 			position: relative;
-			left: 40%;
+			left: 35%;
 
 		}
+		#img1{
+			height:300px;
+		}
 
-		@media all and (max-width: 900px){
+		@media all and (max-width: 1000px){
 
 			.logo{
-				width:265.95px;
+				width:300px;
 				height: auto;
 			}
-			
-		}
-		@media all and (max-width: 630px){
-
 			#hometab,
 			#page2{
 				font-size: 25px;
 			}
+			
 		}
-		@media all and (max-width: 720px){
-
+		@media all and (max-width: 630px){
 			menu{
-				width: 175px;
+				position: absolute;
+				right: 0px;
 			}
+			
 			.logo{
 				width:220px;
 				height: auto;
 			}
+		}
+		@media all and (max-width: 750px){
+
+			#menu{
+				width: 175px;
+			}
+
+			#img1{
+				width:60%;
+				height:auto;
+			}
+
+			#hometab,
+			#page2{
+				margin-left: 10px;
+			}
 
 		}
-
 
 
 	
